@@ -15,7 +15,7 @@ try:
     num = int(input("Enter a number: "))
     result = fact(num)
 
-    if result is not None:
+    if result  is not None:
         print(f"Factorial of {num} is: {result}")
 
 except ValueError:
